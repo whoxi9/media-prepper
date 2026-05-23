@@ -1,0 +1,26 @@
+# Local media sources and conversion outputs
+pcm_output/
+*_pcm/
+*.mp4
+*.mov
+*.mkv
+*.avi
+*.webm
+*.m4v
+*.mp3
+*.wav
+*.flac
+*.aac
+
+# Python/local environment noise
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
