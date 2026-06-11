@@ -1,0 +1,812 @@
+{
+  "FormatVersion": 7,
+  "Fullscreen": true,
+  "Maximized": false,
+  "WindowWidth": 1918,
+  "WindowHeight": 1018,
+  "VSync": false,
+  "FpsLimit": 240,
+  "UnlimitedFps": true,
+  "FieldOfView": 95,
+  "RenderingSettings": {
+    "RenderScale": 100,
+    "ViewDistance": 192,
+    "Lod": 0,
+    "AntiAliasing": 0,
+    "Shadows": 0,
+    "Shading": 0,
+    "Bloom": 0,
+    "UseSunshaft": false,
+    "DepthOfField": 1,
+    "Water": 1,
+    "UseFoliageFading": false,
+    "Particles": 0,
+    "DepthBuffer": 0
+  },
+  "MaxChatMessages": 64,
+  "PlacementPreviewMode": 2,
+  "DisplayEntityStatBars": false,
+  "DisplayCombatText": true,
+  "DisplayNetworkQualityWarnings": true,
+  "DisplayInputBindingsOnHud": true,
+  "CameraShoulder": 1,
+  "HideHud": false,
+  "HideHotbar": false,
+  "HideCompass": false,
+  "HideNotifications": false,
+  "HideChat": false,
+  "HideHeldItem": false,
+  "HideServerAddresses": true,
+  "FpsOverlay": 0,
+  "DiagnosticMode": false,
+  "UseLegacyNetworking": false,
+  "InputActions": {
+    "Crouch": {
+      "Name": "Crouch",
+      "Id": 5,
+      "Bindings": [
+        {
+          "SourceType": 0,
+          "Scancode": 226
+        },
+        {
+          "SourceType": 2,
+          "GamepadButton": 8
+        }
+      ],
+      "ControllerBehaviorMode": "Toggle"
+    },
+    "Walk": {
+      "Name": "Walk",
+      "Id": 7,
+      "Bindings": [
+        {
+          "SourceType": 0,
+          "Scancode": 224
+        }
+      ],
+      "ControllerBehaviorMode": "Toggle"
+    },
+    "FlyDown": {
+      "Name": "FlyDown",
+      "Id": 9,
+      "Bindings": [
+        {
+          "SourceType": 0,
+          "Scancode": 226
+        },
+        {
+          "SourceType": 2,
+          "GamepadButton": 8
+        }
+      ]
+    },
+    "Ability2ItemAction": {
+      "Name": "Ability2ItemAction",
+      "Id": 13,
+      "Bindings": [
+        {
+          "SourceType": 0,
+          "Scancode": 21
+        }
+      ]
+    },
+    "Ability3ItemAction": {
+      "Name": "Ability3ItemAction",
+      "Id": 14,
+      "Bindings": [
+        {
+          "SourceType": 0,
+          "Scancode": 23
+        },
+        {
+          "SourceType": 2,
+          "GamepadButton": 1
+        }
+      ]
+    },
+    "BlockInteractAction": {
+      "Name": "BlockInteractAction",
+      "Id": 15,
+      "Bindings": [
+        {
+          "SourceType": 0,
+          "Scancode": 8
+        },
+        {
+          "SourceType": 2,
+          "GamepadButton": 2
+        }
+      ]
+    },
+    "RotateBlock": {
+      "Name": "RotateBlock",
+      "Id": 16,
+      "Bindings": [
+        {
+          "SourceType": 0,
+          "Scancode": 58
+        }
+      ]
+    },
+    "ShowUtilitySlotSelector": {
+      "Name": "ShowUtilitySlotSelector",
+      "Id": 17,
+      "Bindings": [
+        {
+          "SourceType": 0,
+          "Scancode": 59
+        },
+        {
+          "SourceType": 2,
+          "GamepadButton": 13
+        }
+      ]
+    },
+    "ShowEmoteSelector": {
+      "Name": "ShowEmoteSelector",
+      "Id": 18,
+      "Bindings": [
+        {
+          "SourceType": 0,
+          "Scancode": 60
+        },
+        {
+          "SourceType": 2,
+          "GamepadButton": 14
+        }
+      ]
+    },
+    "DismountAction": {
+      "Name": "DismountAction",
+      "Id": 19,
+      "Bindings": [
+        {
+          "SourceType": 0,
+          "Scancode": 8
+        },
+        {
+          "SourceType": 2,
+          "GamepadButton": 2
+        }
+      ]
+    },
+    "HotbarSlot6": {
+      "Name": "HotbarSlot6",
+      "Id": 26,
+      "Bindings": [
+        {
+          "SourceType": 0,
+          "Scancode": 29
+        }
+      ]
+    },
+    "HotbarSlot7": {
+      "Name": "HotbarSlot7",
+      "Id": 27,
+      "Bindings": [
+        {
+          "SourceType": 0,
+          "Scancode": 27
+        }
+      ]
+    },
+    "HotbarSlot8": {
+      "Name": "HotbarSlot8",
+      "Id": 28,
+      "Bindings": [
+        {
+          "SourceType": 0,
+          "Scancode": 6
+        }
+      ]
+    },
+    "HotbarSlot9": {
+      "Name": "HotbarSlot9",
+      "Id": 29,
+      "Bindings": [
+        {
+          "SourceType": 0,
+          "Scancode": 25
+        }
+      ]
+    },
+    "SwitchCameraMode": {
+      "Name": "SwitchCameraMode",
+      "Id": 30,
+      "Bindings": [
+        {
+          "SourceType": 1,
+          "MouseButton": 5
+        },
+        {
+          "SourceType": 2,
+          "GamepadButton": 11
+        }
+      ]
+    },
+    "ActivateCameraRotation": {
+      "Name": "ActivateCameraRotation",
+      "Id": 31,
+      "Bindings": [
+        {
+          "SourceType": 1,
+          "MouseButton": 4
+        }
+      ]
+    },
+    "PushToTalk": {
+      "Name": "PushToTalk",
+      "Id": 48,
+      "Bindings": []
+    },
+    "SelectionCopy": {
+      "Name": "SelectionCopy",
+      "Id": 96,
+      "Bindings": [
+        {
+          "SourceType": 0,
+          "Scancode": 6,
+          "RequiredModifiers": 1
+        }
+      ]
+    }
+  },
+  "MouseSettings": {
+    "MouseInverted": false,
+    "MouseXSpeed": 3.5,
+    "MouseYSpeed": 3.5,
+    "InvertMouseWheelScrollDirection": false
+  },
+  "ControllerSettings": {
+    "InvertRightStickY": false,
+    "RightStickSensitivityX": 50,
+    "RightStickSensitivityY": 50,
+    "RightStickDeadzone": 15,
+    "LeftStickDeadzone": 15,
+    "TriggerDeadzone": 10,
+    "VibrationEnabled": true,
+    "VibrationStrength": 100,
+    "ControllerType": 0
+  },
+  "AudioSettings": {
+    "OutputDevice": null,
+    "MasterVolume": 0.85,
+    "OutputMode": 0,
+    "CategoryVolumes": {
+      "Music": 0.85,
+      "Ambient": 0.85,
+      "SFX": 0.85,
+      "UI": 0.85,
+      "Voice": 0.85
+    },
+    "OcclusionEnabled": true,
+    "Diffraction": 2
+  },
+  "VoiceSettings": {
+    "VoiceChatEnabled": false,
+    "VoiceInputEnabled": false,
+    "InputDevice": null,
+    "InputMode": 1,
+    "VoiceSensitivity": 50,
+    "NoiseSuppression": true,
+    "MutedPlayers": []
+  },
+  "DiscordSettings": {
+    "Enabled": false,
+    "AllowDiscordJoin": false
+  },
+  "MachinimaEditorSettings": {
+    "NewKeyframeFrameOffset": 30,
+    "AutosaveDelay": 30,
+    "CompressSaveFiles": false
+  },
+  "GameplaySettings": {
+    "ArmorItemsPickupLocation": 0,
+    "WeaponAndToolItemsPickupLocation": 0,
+    "UsableItemsPickupLocation": 0,
+    "SolidBlockItemsPickupLocation": 0,
+    "MiscItemsPickupLocation": 0,
+    "CameraBasedFlying": false,
+    "AutoJumpObstacle": true,
+    "AutoCrouchDownObstacle": false,
+    "EnableUtilityQuickSwap": false,
+    "EnableArachnophobiaMode": false,
+    "EnableOphidiophobiaMode": false,
+    "HideHelmet": true,
+    "HideCuirass": true,
+    "HideGauntlets": true,
+    "HidePants": true,
+    "PlayerMarkerTogglesByMarkerId": {
+      "Player-bd7be1a8-46a4-4944-9217-7cbd17cb17df": {
+        "ViewOnMap": true,
+        "ViewOnCompass": false
+      },
+      "Player-c53c33f9-78d0-4c45-8291-355d271a6440": {
+        "ViewOnMap": true,
+        "ViewOnCompass": false
+      },
+      "Player-1fd2ab17-6b8f-4d40-9f80-8881b7c8dfbd": {
+        "ViewOnMap": true,
+        "ViewOnCompass": false
+      },
+      "Player-a4a45ade-7bb2-4817-a935-fd8eba9806ea": {
+        "ViewOnMap": true,
+        "ViewOnCompass": false
+      },
+      "Player-61761179-835b-4837-9134-bfeff761e329": {
+        "ViewOnMap": true,
+        "ViewOnCompass": false
+      },
+      "Player-c4467f66-d149-43ea-b4e4-71fea13d9f82": {
+        "ViewOnMap": true,
+        "ViewOnCompass": false
+      },
+      "Player-7006b8f0-06d4-4085-aa4a-36054c55df8d": {
+        "ViewOnMap": true,
+        "ViewOnCompass": false
+      },
+      "Player-4b23c17a-6833-453e-b60a-d63a3709a6ec": {
+        "ViewOnMap": true,
+        "ViewOnCompass": false
+      },
+      "Player-e97f5891-d7dc-421d-8d38-c98f223fbc74": {
+        "ViewOnMap": true,
+        "ViewOnCompass": false
+      },
+      "Player-91c58457-8f54-4478-b6e2-ebb92b202170": {
+        "ViewOnMap": true,
+        "ViewOnCompass": false
+      },
+      "Player-3bbc9aa9-23a1-464c-80a7-237d202db7da": {
+        "ViewOnMap": true,
+        "ViewOnCompass": false
+      },
+      "Player-6cc37561-dc77-4e5d-b42f-e4e6df421ad6": {
+        "ViewOnMap": true,
+        "ViewOnCompass": false
+      },
+      "Player-e0c582d0-040d-4f20-ab60-756354df67f6": {
+        "ViewOnMap": true,
+        "ViewOnCompass": false
+      },
+      "Player-6cdcd7e2-fcc6-4344-8793-5a47ec2aa306": {
+        "ViewOnMap": true,
+        "ViewOnCompass": false
+      },
+      "Player-1c77d68f-1741-433e-ad59-b1d15cd033ed": {
+        "ViewOnMap": true,
+        "ViewOnCompass": false
+      },
+      "Player-e201f7c3-7ec8-4f8e-ba70-e79f6bcb2117": {
+        "ViewOnMap": true,
+        "ViewOnCompass": false
+      },
+      "Player-da73d43d-24ae-4852-86f8-4fac40021443": {
+        "ViewOnMap": true,
+        "ViewOnCompass": false
+      },
+      "Player-d545bf3d-e061-4199-97ef-a465f36f4026": {
+        "ViewOnMap": true,
+        "ViewOnCompass": false
+      },
+      "Player-7b56f012-d1bb-419d-ba81-b8bafe220cca": {
+        "ViewOnMap": true,
+        "ViewOnCompass": false
+      },
+      "Player-2d4b558c-aedc-4b52-b920-fb86724197a8": {
+        "ViewOnMap": true,
+        "ViewOnCompass": false
+      },
+      "Player-354c3f2a-6474-4797-a2b1-467ac7f4325a": {
+        "ViewOnMap": true,
+        "ViewOnCompass": false
+      },
+      "Player-1a06c48e-cbca-43cf-8efe-813774b68976": {
+        "ViewOnMap": true,
+        "ViewOnCompass": false
+      },
+      "Player-6ff6dfc3-a1b8-493b-9771-f076864164f8": {
+        "ViewOnMap": true,
+        "ViewOnCompass": false
+      },
+      "Player-62388803-4e44-43c7-b9a1-b8b48a0516a3": {
+        "ViewOnMap": true,
+        "ViewOnCompass": false
+      },
+      "Player-91ff4777-dc19-4e8b-b7d6-e6788a1288e8": {
+        "ViewOnMap": true,
+        "ViewOnCompass": false
+      },
+      "Player-3f71c7a1-ea51-49ce-82eb-c59fbcd7c9a7": {
+        "ViewOnMap": true,
+        "ViewOnCompass": false
+      },
+      "Player-11d9b64c-c4b3-4fe3-a010-84316deef1aa": {
+        "ViewOnMap": true,
+        "ViewOnCompass": false
+      },
+      "Player-66187376-223c-4c86-bd4e-d5f9630d5186": {
+        "ViewOnMap": true,
+        "ViewOnCompass": false
+      },
+      "Player-a1972b00-f820-4bc9-9c8f-1062e272153d": {
+        "ViewOnMap": true,
+        "ViewOnCompass": false
+      },
+      "Player-82bccc04-1e0a-4c52-bcb1-d3dcbd5cb450": {
+        "ViewOnMap": true,
+        "ViewOnCompass": false
+      },
+      "Player-2670bd03-5c22-4bcb-86bc-1a4a1bb9943a": {
+        "ViewOnMap": true,
+        "ViewOnCompass": false
+      },
+      "Player-fc5a8c9a-21e1-45ec-a818-36b92e891b1c": {
+        "ViewOnMap": true,
+        "ViewOnCompass": false
+      },
+      "Player-d8d52497-5288-4f1f-8e77-5250e1281095": {
+        "ViewOnMap": true,
+        "ViewOnCompass": false
+      },
+      "Player-eb16c9fd-005a-423a-b687-0e177b1b56a4": {
+        "ViewOnMap": true,
+        "ViewOnCompass": false
+      },
+      "Player-141589c7-142f-4a7b-a71a-f6c2e3d7e5b3": {
+        "ViewOnMap": true,
+        "ViewOnCompass": false
+      },
+      "Player-969680a4-fdc5-41cc-9129-4b3ded27af25": {
+        "ViewOnMap": true,
+        "ViewOnCompass": false
+      },
+      "Player-88359d00-a848-471f-b1a8-78ee750e8c9b": {
+        "ViewOnMap": true,
+        "ViewOnCompass": false
+      },
+      "Player-f3f81b89-df76-4d8e-abbf-935133f41477": {
+        "ViewOnMap": true,
+        "ViewOnCompass": false
+      },
+      "Player-f21297c1-ba38-4731-9a53-61a6ff1de02b": {
+        "ViewOnMap": true,
+        "ViewOnCompass": false
+      },
+      "Player-68c478ac-54b4-498f-be2e-9da7a470ea0b": {
+        "ViewOnMap": true,
+        "ViewOnCompass": false
+      },
+      "Player-2726e179-a885-4540-aa7f-e41b156ae89a": {
+        "ViewOnMap": true,
+        "ViewOnCompass": false
+      },
+      "Player-0d1ffd74-2211-4b64-9a4f-aa8fe494f612": {
+        "ViewOnMap": true,
+        "ViewOnCompass": false
+      },
+      "Player-0f4bb296-6e52-4e71-b9ca-ac10bcde2797": {
+        "ViewOnMap": true,
+        "ViewOnCompass": false
+      },
+      "Player-a3ac03a7-b722-48a0-a723-827d654096d9": {
+        "ViewOnMap": true,
+        "ViewOnCompass": false
+      },
+      "Player-c8c2206d-c9c7-4da7-befd-03dd13f63b47": {
+        "ViewOnMap": true,
+        "ViewOnCompass": false
+      },
+      "Player-9184489a-b80f-4296-899d-9805d7a32de0": {
+        "ViewOnMap": true,
+        "ViewOnCompass": false
+      },
+      "Player-2b51793b-21f6-4dc9-8f85-794c39e06157": {
+        "ViewOnMap": true,
+        "ViewOnCompass": false
+      },
+      "Player-310a564a-ba4e-4568-8ab6-132e132bba64": {
+        "ViewOnMap": true,
+        "ViewOnCompass": false
+      },
+      "Player-89920e6e-6b55-4201-8ad7-f7c126c8ae04": {
+        "ViewOnMap": true,
+        "ViewOnCompass": false
+      },
+      "Player-28a702c1-ea7a-4cd4-9f69-547954ff80cb": {
+        "ViewOnMap": true,
+        "ViewOnCompass": false
+      },
+      "Player-59e6f2de-e98f-43d3-8758-55020b167a55": {
+        "ViewOnMap": true,
+        "ViewOnCompass": false
+      },
+      "Player-913b2dcf-74bd-4d43-9d9d-88cf1d3cfaa2": {
+        "ViewOnMap": true,
+        "ViewOnCompass": false
+      },
+      "Player-e3ca83b3-a8e9-425d-9069-4e018a5324bd": {
+        "ViewOnMap": true,
+        "ViewOnCompass": false
+      },
+      "Player-4a9c7119-eaa9-43ee-b9ef-2ef917512cdb": {
+        "ViewOnMap": true,
+        "ViewOnCompass": false
+      },
+      "Player-3ad86e7f-2fc2-4a28-8c06-a39a3d237f65": {
+        "ViewOnMap": true,
+        "ViewOnCompass": false
+      },
+      "Player-05327a4b-51b8-4d93-a6b8-6aad5037f1c7": {
+        "ViewOnMap": true,
+        "ViewOnCompass": false
+      },
+      "Player-2d3ff621-eac8-4ae5-8a38-53418e565b21": {
+        "ViewOnMap": true,
+        "ViewOnCompass": false
+      },
+      "Player-565b5d68-7b32-40d0-aa26-313a8edf6b82": {
+        "ViewOnMap": true,
+        "ViewOnCompass": false
+      },
+      "Player-d8140662-586d-478f-90e8-11703cee4ae9": {
+        "ViewOnMap": true,
+        "ViewOnCompass": false
+      },
+      "Player-acda992f-4257-48e2-9cff-c9c21e61c3a9": {
+        "ViewOnMap": true,
+        "ViewOnCompass": false
+      },
+      "Player-dc576af7-39bf-458b-8e6f-8ee222cc80a4": {
+        "ViewOnMap": true,
+        "ViewOnCompass": false
+      },
+      "Player-9c2fed5b-be2e-430d-8e8e-8aadadd4e904": {
+        "ViewOnMap": true,
+        "ViewOnCompass": false
+      },
+      "Player-13abd59f-2508-4166-a624-2043dc1784f7": {
+        "ViewOnMap": true,
+        "ViewOnCompass": false
+      },
+      "Player-79a00e82-1a62-492e-a273-bd38c80ff2e4": {
+        "ViewOnMap": true,
+        "ViewOnCompass": false
+      },
+      "Player-92b3447f-658c-49a2-b935-37d55d1b0675": {
+        "ViewOnMap": true,
+        "ViewOnCompass": false
+      },
+      "Player-4d8ab651-fef4-432c-b7db-e2948d53e695": {
+        "ViewOnMap": true,
+        "ViewOnCompass": false
+      },
+      "Player-cb8c2cb7-1d6a-4b43-b43f-6f7ff3abb831": {
+        "ViewOnMap": true,
+        "ViewOnCompass": false
+      },
+      "Player-ed179f53-ba5f-4a3e-8a22-5de6ce508603": {
+        "ViewOnMap": true,
+        "ViewOnCompass": false
+      },
+      "Player-5d6ba310-aaae-4af6-b8c7-d15145e997ad": {
+        "ViewOnMap": true,
+        "ViewOnCompass": false
+      },
+      "Player-383d0822-7f4f-4b92-8ab7-fbb44ac24bac": {
+        "ViewOnMap": true,
+        "ViewOnCompass": false
+      },
+      "Player-1f9bf634-f7cf-4b92-b524-dcf983af8641": {
+        "ViewOnMap": true,
+        "ViewOnCompass": false
+      },
+      "Player-541f256c-4480-4b0e-b561-8445dd5ebb93": {
+        "ViewOnMap": true,
+        "ViewOnCompass": false
+      },
+      "Player-1457f59e-4db3-4e9d-9dcf-926778bfe407": {
+        "ViewOnMap": true,
+        "ViewOnCompass": false
+      },
+      "Player-c7cee5c9-83c5-452f-b054-ba8a969f2524": {
+        "ViewOnMap": true,
+        "ViewOnCompass": false
+      },
+      "Player-90da6392-2294-4897-b3aa-4f84e4552f63": {
+        "ViewOnMap": true,
+        "ViewOnCompass": false
+      },
+      "Player-258844e5-beeb-4a6e-ad1d-92d4c33715a9": {
+        "ViewOnMap": true,
+        "ViewOnCompass": false
+      },
+      "Player-3917c0f0-79b4-4fb1-9644-56db2bf442b7": {
+        "ViewOnMap": true,
+        "ViewOnCompass": false
+      },
+      "Player-07578c94-5e4d-4dcf-b0d1-967629c2c126": {
+        "ViewOnMap": true,
+        "ViewOnCompass": false
+      },
+      "Player-59b09e95-475c-4448-8508-4697e49b82a7": {
+        "ViewOnMap": true,
+        "ViewOnCompass": false
+      },
+      "Player-7d54eebd-0598-4b24-ad6a-c25d58525cdc": {
+        "ViewOnMap": true,
+        "ViewOnCompass": false
+      },
+      "Player-aa09693a-f505-4b8b-9e6a-09c2e5ef645c": {
+        "ViewOnMap": true,
+        "ViewOnCompass": false
+      },
+      "Player-ffbeec63-0ce3-4798-af7f-0742fb03a198": {
+        "ViewOnMap": true,
+        "ViewOnCompass": false
+      },
+      "Player-b02d13d8-a8f9-472d-90dc-d127592f7b03": {
+        "ViewOnMap": true,
+        "ViewOnCompass": false
+      },
+      "Player-f1084f4a-a770-4301-ae2c-e647d6cb9e01": {
+        "ViewOnMap": true,
+        "ViewOnCompass": false
+      },
+      "Player-3bcc998c-7cf2-4d93-9e60-302bb709a6d9": {
+        "ViewOnMap": true,
+        "ViewOnCompass": false
+      },
+      "Player-ea8da95a-7233-4ee9-a4ac-df304d0deeb7": {
+        "ViewOnMap": true,
+        "ViewOnCompass": false
+      },
+      "Player-0bc514ed-7f5f-4f83-a7ef-289e1810635d": {
+        "ViewOnMap": true,
+        "ViewOnCompass": false
+      },
+      "Player-ecedd4b0-9789-40b1-9129-50e5adde23f9": {
+        "ViewOnMap": true,
+        "ViewOnCompass": false
+      },
+      "Player-d79949cc-3e6a-4e81-8cf0-98574dc7db8e": {
+        "ViewOnMap": true,
+        "ViewOnCompass": false
+      },
+      "Player-23ef20c8-98da-46fd-ac09-b815a12091e1": {
+        "ViewOnMap": true,
+        "ViewOnCompass": false
+      },
+      "Player-c1857ebe-bb67-4429-a620-2a6206d4bb8e": {
+        "ViewOnMap": true,
+        "ViewOnCompass": false
+      },
+      "Player-dc468ea6-0311-4299-b1da-549307e4ee7b": {
+        "ViewOnMap": true,
+        "ViewOnCompass": false
+      },
+      "Player-4bff1912-7677-4707-88ab-6a5af47c99db": {
+        "ViewOnMap": true,
+        "ViewOnCompass": false
+      },
+      "Player-27b50aff-2918-4041-8d7c-0cbd1047ac93": {
+        "ViewOnMap": true,
+        "ViewOnCompass": false
+      },
+      "Player-58e433de-b848-492a-aa24-d8d04f59ae85": {
+        "ViewOnMap": true,
+        "ViewOnCompass": false
+      },
+      "Player-3cb5e1ad-3641-464f-8989-4ad9bf618d17": {
+        "ViewOnMap": true,
+        "ViewOnCompass": false
+      },
+      "Player-9adf133e-436d-4c2b-9e45-2e41caa48727": {
+        "ViewOnMap": true,
+        "ViewOnCompass": false
+      },
+      "Player-18cb28e3-694f-4ad1-b84d-778b8602e396": {
+        "ViewOnMap": true,
+        "ViewOnCompass": false
+      },
+      "Player-b0dd47e6-5967-4359-b247-a9c49033cbef": {
+        "ViewOnMap": true,
+        "ViewOnCompass": false
+      },
+      "Player-7f24e12f-5f6a-471c-bc67-3b8be7482de2": {
+        "ViewOnMap": true,
+        "ViewOnCompass": false
+      },
+      "Player-9f65c7eb-841e-431e-83f9-a4fd7d6241aa": {
+        "ViewOnMap": true,
+        "ViewOnCompass": false
+      },
+      "Player-aeb002d2-9377-40c8-91bb-5e70223e9ea3": {
+        "ViewOnMap": true,
+        "ViewOnCompass": false
+      },
+      "Player-2d990cea-dba3-4416-a5c9-b37fc73e7b77": {
+        "ViewOnMap": true,
+        "ViewOnCompass": false
+      },
+      "Player-0ab28ac6-1618-4150-9d9a-74c7f6cf7aaf": {
+        "ViewOnMap": true,
+        "ViewOnCompass": false
+      },
+      "Player-848735b5-f452-4b3d-9c15-05dfa27f34e9": {
+        "ViewOnMap": true,
+        "ViewOnCompass": false
+      },
+      "Player-cf73ba8f-0da6-4fe8-92a9-f36c505fe04d": {
+        "ViewOnMap": true,
+        "ViewOnCompass": false
+      },
+      "Player-c7f5c2cd-e598-4b6a-8c86-9a8401639993": {
+        "ViewOnMap": true,
+        "ViewOnCompass": false
+      },
+      "Player-c235829b-ff1e-4eae-bc8a-caf33f36ad77": {
+        "ViewOnMap": true,
+        "ViewOnCompass": false
+      },
+      "Player-62572fd6-4f67-42ee-9fdb-3c9c05f29d18": {
+        "ViewOnMap": true,
+        "ViewOnCompass": false
+      },
+      "Player-537e857a-a66c-4c6a-b3b2-f67189caf4e4": {
+        "ViewOnMap": true,
+        "ViewOnCompass": false
+      }
+    }
+  },
+  "BuilderToolsSettings": {
+    "ToolFavorites": {},
+    "BlockFavorites": [],
+    "ToolReachDistance": 128,
+    "ToolDelayMin": 100,
+    "BrushOpacity": 15,
+    "SelectionOpacity": 12,
+    "SelectionPanelOpacity": 100,
+    "DisplayLegend": true,
+    "ShowBuilderToolsNotifications": true,
+    "FlightInertia": 40,
+    "EnableNoClip": false,
+    "EnableAirPlacement": false,
+    "EnableFreePlace": false,
+    "NoPhysics": false,
+    "EnableEraser": false,
+    "EnableBlockHighlighting": false,
+    "CreativeInteractionDistance": 10,
+    "AllowNPCDetection": false,
+    "RespondToHit": false,
+    "PlaceMode": "default",
+    "FlightSpeedMultiplier": 1,
+    "BrushSoundVolume": 100,
+    "ShowEntityMarkers": false,
+    "FullbrightEnabled": false,
+    "FogEnabled": true,
+    "UndoGroupSize": 10,
+    "QuickSettingsCategoryOrder": [
+      "environment",
+      "movementFlight",
+      "placementSettings",
+      "uiVisibility",
+      "toolSettings"
+    ],
+    "QuickSettingsCollapsedCategories": [],
+    "QuickSettingsSelectedTab": "Settings"
+  },
+  "Language": null,
+  "SavedCameraIndex": 1,
+  "UsedInitialAvatarPresetRandomization": false,
+  "SharedMapMarker": true,
+  "JoinCamera": 2,
+  "SprintFovEffect": false,
+  "SprintFovIntensity": 1.175,
+  "ViewBobbingEffect": false,
+  "ViewBobbingIntensity": 1,
+  "CameraShakeEffect": true,
+  "FirstPersonCameraShakeIntensity": 1,
+  "ThirdPersonCameraShakeIntensity": 1
+}
